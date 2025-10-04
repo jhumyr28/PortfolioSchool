@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <a href="#home" class="logo">My Portfolio</a>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero fade-section">
+    <div id="particles-js"></div>
+
+    <div class="hero-content">
+        <div class="profile-image">
+            <img src="images/avatar.jpg" alt="Your Name">
+        </div>
+      <h2>Hello, I'm <span class="highlight">Jhumyr Paul Donor</span></h2>
+      <p>Back-End Developer | Student | Coder</p>
+      <button onclick="scrollToSection('projects')">View My Work</button>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about fade-section">
+    <h2>About Me</h2>
+    <p>
+      I'm a passionate web developer who loves creating interactive and beautiful
+      websites. I specialize in HTML, CSS, JavaScript, and React. I work at Teksquad Technologies Inc. for 2 years a full-stack developer.
+    </p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills fade-section">
+    <h2>Skills</h2>
+    <div class="project-container">
+      <div class="project-card">
+        <h3>Python</h3>
+        <p>First language i learned.</p>
+      </div>
+      <div class="project-card">
+        <h3>PHP</h3>
+        <p>Including Codeigniter and Laravel Framework.</p>
+      </div>
+      <div class="project-card">
+        <h3>Html/Javascript/CSS</h3>
+        <p>Basic knowledge for Web Development.</p>
+      </div>
+      <div class="project-card">
+        <h3>React</h3>
+        <p>Building user interfaces with React.</p>
+      </div>
+      <div class="project-card">
+        <h3>MongoDB/MySQL</h3>
+        <p>Database management systems.</p>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects fade-section">
+    <h2>Projects</h2>
+    <div class="project-container">
+      <div class="project-card">
+        <h3>Health Management Website</h3>
+        <p>A government website which provides health status of students.</p>
+      </div>
+      <div class="project-card">
+        <h3>Enrollment System</h3>
+        <p>Enrollment website using Laravel/PHP.</p>
+      </div>
+      <div class="project-card">
+        <h3>POS System</h3>
+        <p>A point of sale system for managing sales and inventory with Menu.</p>
+      </div>
+      <div class="project-card">
+        <h3>Learning App</h3>
+        <p>A study and learning app.</p>
+      </div>
+      <div class="project-card">
+        <h3>Various Works</h3>
+        <p>Projects I did when outside work such as my Portfolio.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact fade-section">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Jhumyr Paul Donor. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
